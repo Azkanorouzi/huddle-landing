@@ -1,0 +1,22 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "description": "This project was built merely for the purpose of experimentation and, getting used to tailwindcss",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azkanorouzi/huddle-landing.git"
+  },
+  "author": "azka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azkanorouzi/huddle-landing/issues"
+  },
+  "homepage": "https://github.com/Azkanorouzi/huddle-landing#readme",
+  "devDependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

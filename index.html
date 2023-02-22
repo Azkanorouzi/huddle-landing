@@ -1,33 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>
+    Frontend Mentor | Huddle landing page with single introductory section
+  </title>
+  <link rel="stylesheet" href="style/style.css" />
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 </head>
-<body>
+<body
+  class=" from-violet-800 to-cyan-700 bg-gradient-to-b bg-cover bg-no-repeat flex justify-center items-center pb-20">
+  <picture class="absolute top-0 -z-10 img-container">
+    <source srcset="./images/bg-desktop.svg" media="(min-width:1000px)" />
+    <img src="./images/bg-mobile.svg" alt="bg" class=" -z-10 w-full h-full bg-illutsration" />
+  </picture>
+  <nav>
+    <!-- Img -->
+    <img src="./images/logo.svg" alt="logo" class="logo-animated absolute top-3 left-5">
+  </nav>
+  <main>
+    <figure
+      class="grid place-content-center text-white p-7 gap-5 border-rounded relative pt-64 lg:grid-flow-col lg:p-28">
 
-  Build The Community Your Fans Will Love
+      <img src="images/illustration-mockups.svg" alt="illustration" class="illustration mx-auto w-96" />
+      <figcaption
+        class="bg-indigo-900 p-3 text-center bg-opacity-50 rounded-xl text-container grid gap-3 text-container  lg:grid lg:place-content-center lg:p-10 lg:text-left lg:gap-6 md:w-96 ">
+        <h1 class="text-2xl weigth font-bold lg:text-4xl title">Build The Community Your Fans Will Love</h1>
+        <p class="lg:text-1xl text">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button type="button" class=" button-register rounded-xl mx-auto bg-black lg:ml-0"> Register </button>
+      </figcaption>
+      
+    </figure>
+                <ul class="text-white flex justify-end mt-20 lg:mt-0 px-10 lg:px-32 text-3xl gap-4 ">
+                  <li>
+                    <a href="#">
+                      <i class="bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="bi-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+  </main>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
+
 </html>
+
+<!-- There has been a lot of things lately that make me realise that this is wrong however this is going to be the best possible way yet convinced as well and if you have any question please let me know as well that this is wrong and i will most certail -->
